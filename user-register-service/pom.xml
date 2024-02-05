@@ -43,6 +43,10 @@
   <dependencies>
     <dependency>
       <groupId>io.quarkus</groupId>
+      <artifactId>quarkus-reactive-pg-client</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>io.quarkus</groupId>
       <artifactId>quarkus-resteasy-reactive-jackson</artifactId>
     </dependency>
     <dependency>
@@ -77,6 +81,10 @@
       <version>4.0.11</version>
       <scope>compile</scope>
     </dependency>
+      <dependency>
+          <groupId>io.smallrye.reactive</groupId>
+          <artifactId>smallrye-mutiny-vertx-sql-client</artifactId>
+      </dependency>
   </dependencies>
   <build>
     <plugins>
